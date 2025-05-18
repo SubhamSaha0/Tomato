@@ -6,9 +6,9 @@ A complete food ordering platform with:
 - **Backend API** (Node.js + Express + MongoDB)
 
 ## 🔗 Live Demos
-- **Customer Frontend**: https://tomato-frontend-urya.onrender.com
-- **Admin Dashboard**: https://tomato-admin-1lu2.onrender.com
-- **Backend API**: https://tomato-backend-8yug.onrender.com
+<a href="https://tomato-frontend-urya.onrender.com" target="_blank">Customer Frontend</a> • 
+<a href="https://tomato-admin-1lu2.onrender.com" target="_blank">Admin Dashboard</a> • 
+<a href="https://tomato-backend-8yug.onrender.com" target="_blank">Backend API</a>
 
 ## 🛠️ Tech Stack
 | Component       | Technology              |
