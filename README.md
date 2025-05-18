@@ -46,3 +46,30 @@ A complete food ordering platform with:
    # Create .env file with:
    # MONGO_URI=your_connection_string
    # JWT_SECRET=your_secret_key
+2. **Backend Setup**
+   ```bash
+   cd backend
+   npm install
+   # Create .env file with:
+   # MONGO_URI=your_connection_string
+   # JWT_SECRET=your_secret_key
+3. **Frontend Setup**
+   ```bash
+   cd ../Frontend
+   npm install
+   npm run dev
+4. **Admin Panel Setup**
+   ```bash
+   cd ../admin
+   npm install
+   npm run dev
+
+⚙️ **Configuration**
+Create .env in Backend with:
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+# Optional:
+CLOUDINARY_URL=your_cloudinary_credentials
+
+📜 License
+MIT © Subham Saha
