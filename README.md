@@ -6,9 +6,9 @@ A complete food ordering platform with:
 - **Backend API** (Node.js + Express + MongoDB)
 
 ## 🔗 Live Demos
-- **Customer Frontend**: [https://tomato-frontend-urya.onrender.com](https://tomato-frontend-urya.onrender.com)
-- **Admin Dashboard**: [https://tomato-admin-1lu2.onrender.com](https://tomato-admin-1lu2.onrender.com)
-- **Backend API**: [https://tomato-backend-8yug.onrender.com](https://tomato-backend-8yug.onrender.com)
+- **Customer Frontend**: <a href="https://tomato-frontend-urya.onrender.com" target="_blank">https://tomato-frontend-urya.onrender.com</a>
+- **Admin Dashboard**: <a href="https://tomato-admin-1lu2.onrender.com" target="_blank">https://tomato-admin-1lu2.onrender.com</a>
+- **Backend API**: <a href="https://tomato-backend-8yug.onrender.com" target="_blank">https://tomato-backend-8yug.onrender.com</a>
 
 ## 🛠️ Tech Stack
 | Component       | Technology              |
@@ -39,3 +39,10 @@ A complete food ordering platform with:
    ```bash
    git clone https://github.com/SubhamSaha0/Tomato.git
    cd Tomato
+2. **Backend Setup**
+   ```bash
+   cd backend
+   npm install
+   # Create .env file with:
+   # MONGO_URI=your_connection_string
+   # JWT_SECRET=your_secret_key
