@@ -50,7 +50,7 @@ const placeOrder = async (req, res) => {
     res.json({ success: true, session_url: session.url });
   } catch (error) {
     console.log(error)
-    res.json({success: false, message: "error in orderControll"})
+    res.json({success: false, message: "Error in OrderController.js. Backend link isn't working or backend server is sleeping"})
   }
 };
 
