@@ -1,0 +1,83 @@
+.login-popup {
+    position: fixed;                   
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    animation: fadeIn 0.3s ease-in-out; 
+                       
+}
+
+.login-signup-box {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    min-height: 320px;
+    justify-content: center;
+    position: relative;
+    color: tomato;
+}
+.login-signup-box span{
+    color: rgb(0, 0, 255, 0.7);
+    font-weight: 500;
+}
+.login-signup-box span:hover{
+    color: rgb(0, 0, 255);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login-signup-box form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.close {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: tomato;
+    border: 1px solid tomato;
+    border-radius: 50%;
+    background-color: white;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 22px;
+}
+
+
+.btn{
+    background-color: tomato;
+    color: rgb(255, 255, 255, 0.9);
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    border: 2px solid tomato;
+    color: white;
+}
+.input-option{
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}

@@ -1,0 +1,163 @@
+.place-order {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: "Segoe UI", sans-serif;
+  background: #fff;
+}
+
+.form-container {
+  flex: 1;
+  margin-top: 20px;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2,
+.cart-summary h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+/* Form Flex Layout */
+.delivery-form {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Left Section (Form Fields) */
+.left-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 250px;
+}
+
+/* Input Styles */
+.delivery-form input {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.delivery-form input:focus {
+  border-color: #a0522d;
+  outline: none;
+}
+
+/* Group Two Inputs Horizontally */
+.delivery-form .info {
+  display: flex;
+  gap: 16px;
+}
+
+.delivery-form .info input {
+  flex: 1;
+}
+
+/* Right Section (Cart Summary) */
+.cart-summary {
+  flex: 1;
+  min-width: 280px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 24px;
+  background-color: #fafafa;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cart-summary > div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.cart-summary .total {
+  font-weight: bold;
+  font-size: 18px;
+  border-top: 1px solid #ccc;
+  padding-top: 12px;
+}
+
+.cart-summary button {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  background-color: tomato;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-summary button:hover {
+  background-color: #d64533;
+}
+
+/* Tablet and Up: Side-by-Side Layout */
+@media (min-width: 768px) {
+  .delivery-form {
+    flex-direction: row;
+  }
+
+  .left-box,
+  .cart-summary {
+    width: 48%;
+  }
+
+  .delivery-form .info {
+    flex-direction: row;
+  }
+}
+
+/* Mobile: Stack Layout */
+@media (max-width: 767px) {
+  .delivery-form {
+    flex-direction: column;
+  }
+
+  .left-box,
+  .cart-summary {
+    width: 100%;
+  }
+
+  .delivery-form .info {
+    flex-direction: column;
+  }
+
+  .cart-summary {
+    padding: 20px;
+  }
+}
+
+/* Smallest Devices */
+@media (max-width: 450px) {
+  .form-container h2,
+  .cart-summary h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .delivery-form .info {
+    flex-direction: column;
+  }
+}
