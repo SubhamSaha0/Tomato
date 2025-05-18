@@ -6,9 +6,9 @@ A complete food ordering platform with:
 - **Backend API** (Node.js + Express + MongoDB)
 
 ## 🔗 Live Demos
-- **Customer Frontend**: <a href="https://tomato-frontend-urya.onrender.com" target="_blank">https://tomato-frontend-urya.onrender.com</a>
-- **Admin Dashboard**: <a href="https://tomato-admin-1lu2.onrender.com" target="_blank">https://tomato-admin-1lu2.onrender.com</a>
-- **Backend API**: <a href="https://tomato-backend-8yug.onrender.com" target="_blank">https://tomato-backend-8yug.onrender.com</a>
+- **Customer Frontend**: https://tomato-frontend-urya.onrender.com
+- **Admin Dashboard**: https://tomato-admin-1lu2.onrender.com
+- **Backend API**: https://tomato-backend-8yug.onrender.com
 
 ## 🛠️ Tech Stack
 | Component       | Technology              |
@@ -21,55 +21,54 @@ A complete food ordering platform with:
 | Deployment     | Render.com               |
 
 ## ✨ Key Features
-**Customer Side:**
+
+Customer Side:
 - Sign up and login
 - Browse food menu with categories
 - Add items to cart
 - Secure checkout process
 - Order history tracking
 
-**Admin Side:**
+Admin Side:
 - Add/Edit/Delete food items
 - Manage orders
-- View sales analytics
-- User management
 
 ## 🚀 Local Setup
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/SubhamSaha0/Tomato.git
-   cd Tomato
-2. **Backend Setup**
-   ```bash
-   cd backend
-   npm install
-   # Create .env file with:
-   # MONGO_URI=your_connection_string
-   # JWT_SECRET=your_secret_key
-2. **Backend Setup**
-   ```bash
-   cd backend
-   npm install
-   # Create .env file with:
-   # MONGO_URI=your_connection_string
-   # JWT_SECRET=your_secret_key
-3. **Frontend Setup**
-   ```bash
-   cd ../Frontend
-   npm install
-   npm run dev
-4. **Admin Panel Setup**
-   ```bash
-   cd ../admin
-   npm install
-   npm run dev
 
-⚙️ **Configuration**
-Create .env in Backend with:
+# 1. Clone the repository
+git clone https://github.com/SubhamSaha0/Tomato.git
+cd Tomato
+
+# 2. Backend Setup
+cd backend
+npm install
+
+# Create a .env file in the backend directory with the following content:
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 # Optional:
 CLOUDINARY_URL=your_cloudinary_credentials
 
-📜 License
+npm start
+
+# 3. Frontend Setup
+cd ../frontend
+npm install
+npm run dev
+
+# 4. Admin Panel Setup
+cd ../admin
+npm install
+npm run dev
+
+## ⚙️ Configuration
+
+# Environment variables required in /backend/.env:
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+# Optional:
+CLOUDINARY_URL=your_cloudinary_credentials
+
+## 📜 License
+
 MIT © Subham Saha
